@@ -29,10 +29,6 @@ ipcMain.on('todo:add', (event, todo) => {
   addWindow.close();
 });
 
-// ipcMain.on('todo:clear', (event) => {
-//   mainWindow.webContents.send('todo:clear');
-// });
-
 const menuTemplate = [
   {
     label: 'File',
